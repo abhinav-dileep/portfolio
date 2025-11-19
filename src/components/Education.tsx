@@ -1,8 +1,8 @@
 export default function Education() {
   const educations = [
-    { title: 'BCA Degree', institution: 'Your College Name', year: '2025', description: 'Bachelor of Computer Applications' },
-    { title: 'Plus Two', institution: 'Your School Name', year: '2022', description: 'Higher Secondary Education' },
-    { title: 'SSLC', institution: 'Your School Name', year: '2020', description: 'Secondary School Leaving Certificate' },
+    { title: 'BCA Degree', institution: 'National College, Bengaluru', year: '2026', description: 'Bachelor of Computer Applications' },
+    { title: 'Plus Two', institution: 'GHSS Palayad, Kannur', year: '2019', description: 'Higher Secondary Education' },
+    { title: 'SSLC', institution: "St. Joseph's HSS, Kannur", year: '2017', description: 'Secondary School Leaving Certificate' },
   ]
 
   return (

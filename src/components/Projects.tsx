@@ -50,13 +50,13 @@ export default function Projects() {
         >
           {originalProjects.map((project, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white dark:bg-gray-700 p-4 sm:p-6 rounded-lg shadow-md w-full max-w-[320px]">
+              <div className="bg-white dark:bg-gray-700 p-4 sm:p-6 rounded-lg shadow-md w-full max-w-[320px] h-[400px] flex flex-col">
                 <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded mb-4" />
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <div className="flex flex-wrap gap-2 mb-3">
                   {project.tech.map((t) => <span key={t} className="bg-blue-500 text-white px-2 py-1 rounded text-sm">{t}</span>)}
                 </div>
-                <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-2">{project.description}</p>
+                <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-2 flex-grow">{project.description}</p>
               </div>
             </SwiperSlide>
           ))}

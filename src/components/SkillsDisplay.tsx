@@ -7,10 +7,10 @@ export default function SkillsDisplay() {
   const skills = [
     { name: 'HTML', percentage: 90, description: 'HyperText Markup Language for structuring web pages.' },
     { name: 'CSS', percentage: 85, description: 'Cascading Style Sheets for styling and layout.' },
-    { name: 'JavaScript', percentage: 80, description: 'Programming language for interactive web development.' },
-    { name: 'React', percentage: 75, description: 'Library for building user interfaces.' },
-    { name: 'Next.js', percentage: 70, description: 'React framework for production-ready applications.' },
-    { name: 'TailwindCSS', percentage: 85, description: 'Utility-first CSS framework for rapid styling.' },
+    { name: 'JavaScript', percentage: 60, description: 'Programming language for interactive web development.' },
+    { name: 'React', percentage: 55, description: 'Library for building user interfaces.' },
+    { name: 'Next.js', percentage: 50, description: 'React framework for production-ready applications.' },
+    { name: 'TailwindCSS', percentage: 55, description: 'Utility-first CSS framework for rapid styling.' },
   ]
 
   const [selectedSkill, setSelectedSkill] = useState<string | null>(null)
