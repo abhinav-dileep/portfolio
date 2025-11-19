@@ -7,7 +7,7 @@ export default function SocialMedia() {
         <h2 className="text-2xl md:text-3xl font-bold mb-4">Connect with Me</h2>
         <p className="text-lg mb-8 text-gray-600 dark:text-gray-400">Let's stay in touch on social media</p>
         <div className="flex justify-center space-x-8">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-3xl text-gray-800 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 transition">
+          <a href="https://github.com/abhinav-dileep" target="_blank" rel="noopener noreferrer" className="text-3xl text-gray-800 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 transition">
             <FaGithub />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 transition">
