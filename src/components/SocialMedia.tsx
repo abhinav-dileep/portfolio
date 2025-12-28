@@ -10,7 +10,7 @@ export default function SocialMedia() {
           <a href="https://github.com/abhinav-dileep" target="_blank" rel="noopener noreferrer" className="text-3xl text-gray-800 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 transition">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 transition">
+          <a href="https://www.linkedin.com/in/abhinav-dileep-kumar/" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 transition">
             <FaLinkedin />
           </a>
            <a href="https://medium.com/@abhinav.dileepkumar" target="_blank" rel="noopener noreferrer" className="text-3xl text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300 transition">
