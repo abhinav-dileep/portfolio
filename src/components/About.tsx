@@ -17,7 +17,7 @@ export default function About() {
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">
-            <Image src="/abhi.png" alt="Profile" width={256} height={256} className="w-64 h-64 rounded-full shadow-lg" />
+            <Image src="/github_image.png" alt="Profile" width={256} height={256} className="w-64 h-64 rounded-full shadow-lg" />
           </div>
         </div>
       </div>

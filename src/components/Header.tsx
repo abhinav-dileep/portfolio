@@ -27,7 +27,7 @@ export default function Header() {
   return (
     <header className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-md shadow sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-black dark:text-white">Abhinav</Link>
+        <Link href="/" className="text-2xl font-bold text-black dark:text-white">Abhinav Dileep</Link>
         <nav className="hidden md:flex space-x-8">
           <Link href="/" className="hover:text-blue-600 transition">Home</Link>
           <Link href="/skills" className="hover:text-blue-600 transition">Skills</Link>
