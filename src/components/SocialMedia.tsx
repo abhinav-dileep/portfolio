@@ -14,8 +14,8 @@ export default function SocialMedia() {
             <FaLinkedin />
           </a>
            <a href="https://medium.com/@abhinav.dileepkumar" target="_blank" rel="noopener noreferrer" className="text-3xl text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300 transition">
-            <FaMediumM />
-          </a>
+             <FaMediumM />
+            </a>
         </div>
       </div>
     </section>
