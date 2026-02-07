@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Portfolio - BCA Graduate Frontend Developer',
   description: 'Portfolio website of a final year BCA graduate student aspiring to be a frontend developer',
+  icons: {
+    icon: '/abhi.png',
+  },
 }
 
 export default function RootLayout({

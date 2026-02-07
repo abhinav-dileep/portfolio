@@ -11,9 +11,9 @@ export default function About() {
               I am a final year BCA student with a passion for creating beautiful and functional web applications.
               My journey in frontend development has equipped me with skills in modern technologies like React, Next.js, and TypeScript,
               along with a keen eye for design using Tailwind CSS. I love turning ideas into reality through code,
-              solving complex problems, and building user-friendly interfaces. When I'm not coding, I enjoy exploring new technologies,
+              solving complex problems, and building user-friendly interfaces. When I&apos;m not coding, I enjoy exploring new technologies,
               contributing to open-source projects, and sharing knowledge through writing. My goal is to create impactful digital experiences
-              that make a difference in people's lives.
+              that make a difference in people&apos;s lives.
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">

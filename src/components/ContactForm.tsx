@@ -24,7 +24,7 @@ export default function ContactForm() {
               type="text"
               id="name"
               value={form.name}
-              onChange={(e) => setForm({...form, name: e.target.value})}
+              onChange={(e) => setForm({ ...form, name: e.target.value })}
               className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700"
               required
             />
@@ -35,7 +35,7 @@ export default function ContactForm() {
               type="email"
               id="email"
               value={form.email}
-              onChange={(e) => setForm({...form, email: e.target.value})}
+              onChange={(e) => setForm({ ...form, email: e.target.value })}
               className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700"
               required
             />
@@ -46,7 +46,7 @@ export default function ContactForm() {
               type="tel"
               id="mobile"
               value={form.mobile}
-              onChange={(e) => setForm({...form, mobile: e.target.value})}
+              onChange={(e) => setForm({ ...form, mobile: e.target.value })}
               className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700"
               required
             />
@@ -56,7 +56,7 @@ export default function ContactForm() {
             <textarea
               id="message"
               value={form.message}
-              onChange={(e) => setForm({...form, message: e.target.value})}
+              onChange={(e) => setForm({ ...form, message: e.target.value })}
               rows={4}
               className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700"
               required
@@ -74,7 +74,7 @@ export default function ContactForm() {
             <div className="bg-white dark:bg-gray-800 p-8 rounded-lg max-w-sm w-full text-center">
               <div className="text-6xl mb-4">✅</div>
               <h3 className="text-2xl font-bold mb-4">Message Sent!</h3>
-              <p className="text-gray-600 dark:text-gray-400 mb-6">Thank you for reaching out. I'll get back to you soon.</p>
+              <p className="text-gray-600 dark:text-gray-400 mb-6">Thank you for reaching out. I&apos;ll get back to you soon.</p>
               <button onClick={() => setShowModal(false)} className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Close</button>
             </div>
           </div>
